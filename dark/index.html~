@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>FooBar Studios</title>
+<!--  FAVICON  -->
+<link rel="shortcut icon" href="../favicon.ico" />
+<!--  //FAVICON  -->
+
+<!--  FONTS  -->
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,900,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../style/font-awesome.min.css" />
+<!--  //FONTS  -->
+
+<!--  JQUERY CSS  -->
+<link rel="stylesheet" type="text/css" href="../style/jquery/flexslider.css" />
+<!--  //JQUERY CSS  -->
+
+<!--  ANIMATE CSS  -->
+<link rel="stylesheet" type="text/css" href="../style/animate/animate.css" />
+<!--  //ANIMATE CSS  -->
+
+<!--  SWITCH COLOR RIGHT PANEL CSS  -->
+<link rel="stylesheet" type="text/css" href="../style/switch.color.css" />
+<!--  //SWITCH COLOR RIGHT PANEL CSS  -->
+
+<!--  CSS  -->
+<link rel="stylesheet" type="text/css" href="../style/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="../style/style.css" />
+<!--  //CSS  -->
+
+<!--  THEMES COLOR STYLE  -->
+<link rel="stylesheet" type="text/css" href="../style/template_bg/light.background.css" />
+
+<link rel="stylesheet" type="text/css" href="../style/template_color/yellow.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/turquoise.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/pink.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/purple.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/green.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/red.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/blue.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/lightgreen.color.css" />
+<link rel="stylesheet" type="text/css" href="../style/template_color/lightred.color.css" />
+<!--  //THEMES COLOR STYLE  -->
+
+
+</head>
+    
+<body>
+    <!--  PRELOADER  -->
+    <img id="preloader" alt="" src="../images/preloader/preloader.GIF">
+    <!--  //PRELOADER  -->
+    
+    <!--  LEFT MENU  -->
+    <div class="left-menu">
+        <!--  LOGO  -->
+        <a class="logo" href="index.html">
+            FooBar
+        </a>
+        <!--  //LOGO  -->
+
+        <!--  NAVIGATION  -->
+        <nav class="main-navi">
+            <a id="homeLink" href="index.html" class="active">
+                Home
+                <span class="dot"></span>
+                <span class="corner"></span>
+            </a>
+            
+	    <a id="portfolioLink" href="portfolio_masonry.html">
+              Portfolio
+              <span class="dot"></span>
+              <span class="corner"></span>
+	    </a>  
+	    		  
+	    <div>
+                <div>
+                    Weddings
+                    <span class="dot"></span>
+                    <span class="corner"></span>
+                </div>
+                <div class="drop-down">
+                    <a href="postwed.html">
+                        Post Wed
+                    </a>
+                    <a href="prewed.html">
+                        Pre Wed
+                    </a>
+		     <a href="candid.html">
+                        Candid
+                    </a>
+                </div>
+            </div>
+
+	    <a href="kids.html">
+              Kids
+	      <span class="dot"></span>
+              <span class="corner"></span>
+            </a>
+
+            <a href="story.html">
+                Our Story
+                <span class="dot"></span>
+                <span class="corner"></span>
+            </a>
+            
+	    <a href="contact.html">
+                Contact Us
+                <span class="dot"></span>
+                <span class="corner"></span>
+            </a>
+            <em id="showHideMenu" class="show-hide-menu glyph fa fa-bars" href=""></em>
+        </nav>
+        <!--  //NAVIGATION  -->
+
+       
+        <!--  SOCIAL ICONS  -->
+        <div class="soc-icons">
+            <a class="glyph fa fa-twitter" href=""></a>
+            <a class="glyph fa fa-facebook" href=""></a>
+            <a class="glyph fa fa-google-plus" href=""></a>
+            <a class="glyph fa fa-linkedin" href=""></a>
+            <a class="glyph fa fa-dribbble" href=""></a>
+            <a class="glyph fa fa-pinterest" href=""></a>
+        </div>
+        <!--  //SOCIAL ICONS  -->
+        <p class="copy">
+            Copyright © 2014, All Rights Reserved
+        </p>
+    </div>
+    <!--  //LEFT MENU  -->
+
+    <!--  RIGHT CONTENT  -->
+    <div class="right-content">
+        <!--  HOME PAGE  -->
+        <!--  SLIDER  -->
+        <div class="flexslider home-page">
+            <ul class="slides">
+                <li class="images-bg">
+                    <!--  SLIDER IMAGE  -->
+                    <img src="../images/big-images/img4.jpg" alt="">
+                    <!--  //SLIDER IMAGE  -->
+
+                    <!--  CIRCLE  -->
+                    <div class="home-title left">
+                      <span>
+                        Welcome <strong>to</strong>
+                      </span>
+                      <span>
+                        <strong>Foto</strong>hunter
+                      </span>
+                      <p>Only the best pictures of animals and travel.</p>
+                    </div>
+                    <!--  //CIRCLE  -->
+                </li>
+                <li class="images-bg">
+                    <!--  SLIDER IMAGE  -->
+                    <img src="../images/big-images/img1.jpg" alt="">
+                    <!--  //SLIDER IMAGE  -->
+
+                    <!--  CIRCLE  -->
+                    <div class="home-title top">
+                      <span>
+                        <strong>we</strong> love 
+                      </span>
+                      <span>
+                        foto<strong>hunter</strong>
+                      </span>
+                      <p>Only the best pictures of animals and travel.</p>
+                    </div>
+                    <!--  //CIRCLE  -->
+                </li>
+                <li class="images-bg">
+                    <!--  SLIDER IMAGE  -->
+                    <img src="../images/big-images/img3.jpg" alt="">
+                    <!--  //SLIDER IMAGE  -->
+
+                    <!--  CIRCLE  -->
+                    <div class="home-title zoom">
+                      <span>
+                        you <strong>modern</strong>
+                      </span>
+                      <span>
+                        <strong>foto</strong> TEMPLATE
+                      </span>
+                      <p>Only the best pictures of animals and travel.</p>
+                    </div>
+                    <!--  //CIRCLE  -->
+                </li>
+            </ul>
+        </div>
+        <!--  //SLIDER  -->
+        <!--  //HOME PAGE  -->
+    </div>
+    <!--  //RIGHT CONTENT  -->
+
+    
+
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/modernizr.custom.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery.gridrotator.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../js/jquery/baron.js"></script>
+
+<script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../js/custom.script.js"></script>
+</body>
+</html>

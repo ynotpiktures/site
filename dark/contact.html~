@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>FooBar Studios</title>
+    <!--  FAVICON  -->
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <!--  //FAVICON  -->
+
+    <!--  FONTS  -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,900,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../style/font-awesome.min.css" />
+    <!--  //FONTS  -->
+
+    <!--  JQUERY CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/jquery/flexslider.css" />
+    <!--  //JQUERY CSS  -->
+
+    <!--  ANIMATE CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/animate/animate.css" />
+    <!--  //ANIMATE CSS  -->
+
+    <!--  SWITCH COLOR RIGHT PANEL CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/switch.color.css" />
+    <!--  //SWITCH COLOR RIGHT PANEL CSS  -->
+
+    <!--  CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <!--  //CSS  -->
+
+    <!--  THEMES COLOR STYLE  -->
+    <link rel="stylesheet" type="text/css" href="../style/template_bg/light.background.css" />
+
+    <link rel="stylesheet" type="text/css" href="../style/template_color/yellow.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/turquoise.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/pink.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/purple.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/green.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/red.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/blue.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/lightgreen.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/lightred.color.css" />
+    <!--  //THEMES COLOR STYLE  -->
+
+
+  </head>
+  
+  <body>
+    <!--  PRELOADER  -->
+    <img id="preloader" alt="" src="../images/preloader/preloader.GIF">
+    <!--  //PRELOADER  -->
+    
+    <!--  LEFT MENU  -->
+    <div class="left-menu">
+      <!--  LOGO  -->
+      <a class="logo" href="index.html">
+        FooBar
+      </a>
+      <!--  //LOGO  -->
+
+      <!--  NAVIGATION  -->
+      <nav class="main-navi">
+        <a href="index.html">
+          Home
+          <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+        
+	<a href="portfolio_masonry.html" >
+	  Portfolio
+	    <span class="dot"></span>
+	    <span class="corner"></span>
+	</a>
+
+	<div>
+	  <div>
+            Weddings
+            <span class="dot"></span>
+            <span class="corner"></span>
+          </div>
+          <div class="drop-down">
+            <a href="postwed.html">
+              Postwed
+            </a>
+            <a href="prewed.html">
+              PreWed
+            </a>
+	    <a href="candid.html">
+              Candid
+            </a>
+          </div>
+        </div>
+
+        <a href="kids.html" >
+	  Kids
+	  <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+
+	<a href="story.html">
+          Our Story
+          <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+        
+	<a href="contact.html" class="active">
+          Contact Us
+          <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+        <em id="showHideMenu" class="show-hide-menu glyph fa fa-bars" href=""></em>
+      </nav>
+      <!--  //NAVIGATION  -->
+
+      <!--  SOCIAL ICONS  -->
+      <div class="soc-icons">
+        <a class="glyph fa-twitter" href=""></a>
+        <a class="glyph fa-facebook" href=""></a>
+        <a class="glyph fa-google-plus" href=""></a>
+        <a class="glyph fa-linkedin" href=""></a>
+        <a class="glyph fa-dribbble" href=""></a>
+        <a class="glyph fa-pinterest" href=""></a>
+      </div>
+      <!--  //SOCIAL ICONS  -->
+      <p class="copy">
+        Copyright © 2014, All Rights Reserved
+      </p>
+    </div>
+    <!--  //LEFT MENU  -->
+
+    <!--  RIGHT CONTENT  -->
+    <div class="right-content">
+      <!--  CONTACT  -->
+      <div class="contact main-block">
+        <div class="left-content col-lg-9">
+          <div class="scroller">
+            <!--  MAP  -->
+            <div id="map" class="map"></div>
+            <!--  //MAP  -->
+            <article class="left-content-text">
+              <h2>Contact</h2>
+              <strong>You can contact us</strong>
+              <div class="row contact-details">
+                <div class="contact-info col-lg-6 col-md-6 col-sm-6">
+                  <p>A popular Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                  <p class="mini">A popular Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                  <div class="info-block">
+                    <em class="glyph fa-phone"></em>
+                    <strong>phone</strong>
+                    <span class="phone">1 (234) 567-890</span>
+                  </div>
+                  <div class="info-block">
+                    <em class="glyph fa-envelope"></em>
+                    <strong>e-mial</strong>
+                    <span>mymail@fotohunet.com menagermail@fotohunter.com</span>
+                  </div>
+                  <div class="info-block">
+                    <em class="glyph fa-map-marker"></em>
+                    <strong>address</strong>
+                    <span>San Francisco, CA 94107 fa795 Folsom Ave, Suite 600</span>
+                  </div>
+                  <div class="info-block">
+                    <em class="glyph fa-skype"></em>
+                    <strong>skype</strong>
+                    <span>foto_hunter</span>
+                  </div>
+                  <div class="info-block">
+                    <em class="glyph fa-dribbble"></em>
+                    <strong>dribbble</strong>
+                    <span>foto-hunter</span>
+                  </div>
+                </div>
+                <div class="form col-lg-6 col-md-6 col-sm-6">
+                  <form>
+                    <input placeholder="name" type="text" />
+                    <input id="email" placeholder="e-mail" type="text" />
+                    <input id="phone" placeholder="phone" type="text" />
+                    <textarea placeholder="message"></textarea>
+                    <input id="submit" value="send message" type="submit" />
+                  </form>
+                </div>
+              </div>
+            </article>
+          </div>   
+          <div class="scroller__track">
+            <div class="scroller__bar"></div>
+          </div>    
+        </div>
+      </div>
+        <!--  //CONTACT  -->
+
+      
+   
+    
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaXCxqnCwD2cQ4RE_WuFfW0ECKkYBelhU&sensor=true"></script>
+<script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery/modernizr.custom.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery.gridrotator.js"></script>
+<script type="text/javascript" src="../js/jquery/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="../js/jquery/baron.js"></script>
+
+<script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="../js/custom.script.js"></script>
+</body>
+</html>

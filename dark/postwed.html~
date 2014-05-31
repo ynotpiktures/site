@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>FooBar Studios</title>
+    <!--  FAVICON  -->
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <!--  //FAVICON  -->
+
+    <!--  FONTS  -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,300,900,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../style/font-awesome.min.css" />
+    <!--  //FONTS  -->
+
+    <!--  JQUERY CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/jquery/flexslider.css" />
+    <!--  //JQUERY CSS  -->
+
+    <!--  ANIMATE CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/animate/animate.css" />
+    <!--  //ANIMATE CSS  -->
+
+    <!--  SWITCH COLOR RIGHT PANEL CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/switch.color.css" />
+    <!--  //SWITCH COLOR RIGHT PANEL CSS  -->
+
+    <!--  CSS  -->
+    <link rel="stylesheet" type="text/css" href="../style/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <!--  //CSS  -->
+
+    <!--  THEMES COLOR STYLE  -->
+    <link rel="stylesheet" type="text/css" href="../style/template_bg/light.background.css" />
+
+    <link rel="stylesheet" type="text/css" href="../style/template_color/yellow.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/turquoise.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/pink.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/purple.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/green.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/red.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/blue.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/lightgreen.color.css" />
+    <link rel="stylesheet" type="text/css" href="../style/template_color/lightred.color.css" />
+    <!--  //THEMES COLOR STYLE  -->
+
+
+  </head>
+  
+  <body>
+    <!--  PRELOADER  -->
+    <img id="preloader" alt="" src="../images/preloader/preloader.GIF">
+    <!--  //PRELOADER  -->
+    
+    <!--  LEFT MENU  -->
+    <div class="left-menu">
+      <!--  LOGO  -->
+      <a class="logo" href="index.html">
+        FooBar
+      </a>
+      <!--  //LOGO  -->
+
+      <!--  NAVIGATION  -->
+      <nav class="main-navi">
+        <a href="index.html">
+          Home
+          <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+        
+	<a href="portfolio_masonry.html" >
+	  Portfolio
+	    <span class="dot"></span>
+	    <span class="corner"></span>
+	</a>
+
+	<div class = "active">
+          <div >
+            Weddings
+            <span class="dot"></span>
+            <span class="corner"></span>
+          </div>
+          <div class="drop-down">
+            <a href="postwed.html">
+              Postwed
+            </a>
+            <a href="prewed.html">
+              PreWed
+            </a>
+	    <a href="candid.html">
+              Candid
+            </a>
+          </div>
+        </div>
+
+        <a href="kids.html">
+          Kids
+	  <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+
+	<a href="story.html">
+          Our Story
+          <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+        
+	<a href="contact.html">
+          Contact Us
+          <span class="dot"></span>
+          <span class="corner"></span>
+        </a>
+        <em id="showHideMenu" class="show-hide-menu glyph fa fa-bars" href=""></em>
+      </nav>
+      <!--  //NAVIGATION  -->
+
+      <!--  SOCIAL ICONS  -->
+      <div class="soc-icons">
+        <a class="glyph fa-twitter" href=""></a>
+        <a class="glyph fa-facebook" href=""></a>
+        <a class="glyph fa-google-plus" href=""></a>
+        <a class="glyph fa-linkedin" href=""></a>
+        <a class="glyph fa-dribbble" href=""></a>
+        <a class="glyph fa-pinterest" href=""></a>
+      </div>
+      <!--  //SOCIAL ICONS  -->
+      <p class="copy">
+        Copyright © 2014, All Rights Reserved
+      </p>
+    </div>
+    <!--  //LEFT MENU  -->
+
+    <!--  RIGHT CONTENT  -->
+    <div class="right-content">
+      
+      <!--  PORTFOLIO  -->
+      <div class="portfolio masonry main-block">
+        <div class="scroller">
+          <div id="masonry" class="masonry-wrapper">
+            <div class="item" data-class="fashion">
+              <img src="../images/masonry/fashion/1.jpg" alt="">
+              <span></span>
+	    </div>
+            <div class="item" data-class="kids">
+              <img src="../images/masonry/landspace/6.jpg" alt="">
+              <span></span>
+	    </div>
+            <div class="item" data-class="girls">
+              <img src="../images/masonry/girls/1.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="fashion">
+              <img src="../images/masonry/fashion/6.jpg" alt="">
+              <span></span>
+	    </div>
+            <div class="item" data-class="girls">
+              <img src="../images/masonry/girls/2.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="wedding">
+              <img src="../images/masonry/sport/1.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="animals">
+              <img src="../images/masonry/animals/6.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="couple">
+              <img src="../images/masonry/cars/1.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="fashion">
+              <img src="../images/masonry/fashion/2.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="couple">
+              <img src="../images/masonry/cars/4.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="animals">
+              <img src="../images/masonry/animals/1.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="girls">
+              <img src="../images/masonry/girls/3.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="wedding">
+              <img src="../images/masonry/sport/2.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="wedding">
+              <img src="../images/masonry/sport/3.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="fashion">
+              <img src="../images/masonry/fashion/3.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="girls">
+              <img src="../images/masonry/girls/4.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="kids">
+              <img src="../images/masonry/landspace/4.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="kids">
+              <img src="../images/masonry/landspace/5.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="fashion">
+              <img src="../images/masonry/fashion/4.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="couple">
+              <img src="../images/masonry/cars/2.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="wedding">
+              <img src="../images/masonry/sport/4.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="couple">
+              <img src="../images/masonry/cars/3.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="animals">
+              <img src="../images/masonry/animals/2.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="animals">
+              <img src="../images/masonry/animals/3.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="kids">
+              <img src="../images/masonry/landspace/1.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="wedding">
+              <img src="../images/masonry/sport/5.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="wedding">
+              <img src="../images/masonry/sport/6.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="fashion">
+              <img src="../images/masonry/fashion/5.jpg" alt="">
+              <span></span>
+	    </div>                        
+            <div class="item" data-class="couple">
+              <img src="../images/masonry/cars/5.jpg" alt="">
+              <span></span>
+            </div> 
+            <div class="item" data-class="kids">
+              <img src="../images/masonry/landspace/2.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="animals">
+              <img src="../images/masonry/animals/4.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="couple">
+              <img src="../images/masonry/cars/6.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="animals">
+              <img src="../images/masonry/animals/5.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="kids">
+              <img src="../images/masonry/landspace/3.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="girls">
+              <img src="../images/masonry/girls/5.jpg" alt="">
+              <span></span>
+            </div>
+            <div class="item" data-class="girls">
+              <img src="../images/masonry/girls/6.jpg" alt="">
+              <span></span>
+            </div>
+          </div>            
+          </div>
+	<div class="scroller__track">
+          <div class="scroller__bar"></div>
+        </div>
+      </div>
+      <!--  //PORTFOLIO  -->
+      
+      <!--  PORTFOLIO DETAILS  -->
+      <div class="portfolio-details">
+        <!--  SLIDER  -->
+        <div class="portfolio-image flexslider">
+          <ul class="slides">
+            <li class="images-bg">
+              <!--  SLIDER IMAGE  -->
+              <img src="../images/big-images/img1.jpg" alt="">
+              <!--  //SLIDER IMAGE  -->
+              <div>
+                <span class="title">BEAUTIFUL fashion FOTO</span>
+                <span class="class">fashion</span>
+              </div>
+            </li>
+            <li class="images-bg">
+              <!--  SLIDER IMAGE  -->
+              <img src="../images/big-images/img2.jpg" alt="">
+              <!--  //SLIDER IMAGE  -->
+              <div>
+                <span class="title">BEAUTIFUL fashion FOTO</span>
+                <span class="class">fashion</span>
+              </div>
+            </li>
+            <li class="images-bg">
+              <!--  SLIDER IMAGE  -->
+              <img src="../images/big-images/img3.jpg" alt="">
+              <!--  //SLIDER IMAGE  -->
+              <div>
+                <span class="title">BEAUTIFUL fashion FOTO</span>
+                <span class="class">fashion</span>
+              </div>
+            </li>
+            <li class="images-bg">
+              <!--  SLIDER IMAGE  -->
+              <img src="../images/big-images/img4.jpg" alt="">
+              <!--  //SLIDER IMAGE  -->
+              <div>
+                <span class="title">BEAUTIFUL fashion FOTO</span>
+                <span class="class">fashion</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--  //SLIDER  -->
+	
+        <!--  PORTFOLIO DETAILS NAVIGATION  -->
+        <div class="portfolio-navi">
+          <a class="details-close glyph fa-plus" href=""></a>
+        </div>
+        <!--  //PORTFOLIO DETAILS NAVIGATION  -->
+ <!--  RIGHT IMAGES  -->
+            <div class="right-images col-lg-3"> 
+                <div class="scroller">   
+                    <ul>
+                        <li>
+                            <a href=""><img src="../images/portfolio/fashion/1.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL fashion FOTO</span>
+                                <span class="class">fashion</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/girls/1.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL girls FOTO</span>
+                                <span class="class">girls</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/girls/2.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL girls FOTO</span>
+                                <span class="class">girls</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/sport/1.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL sport FOTO</span>
+                                <span class="class">sport</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/cars/1.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL cars FOTO</span>
+                                <span class="class">cars</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/fashion/2.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL fashion FOTO</span>
+                                <span class="class">fashion</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/animals/1.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL animals FOTO</span>
+                                <span class="class">animals</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/girls/3.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL girls FOTO</span>
+                                <span class="class">girls</span>
+                            </div>
+                        </li>
+                        <li>
+                            <a href=""><img src="../images/portfolio/landspace/6.jpg" alt=""></a>
+                            <span><em></em></span>
+                            <div>
+                                <span class="title">BEAUTIFUL landspace FOTO</span>
+                                <span class="class">landspace</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>          
+                <div class="scroller__track">
+                    <div class="scroller__bar"></div>
+                </div>             
+            </div> 
+            <!--  //RIGHT IMAGES  -->   
+      </div>
+      <!--  //PORTFOLIO DETAILS  -->
+    </div>
+    <!--  //RIGHT CONTENT  -->
+    <script type="text/javascript" src="../js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery/modernizr.custom.js"></script>
+    <script type="text/javascript" src="../js/jquery/jquery.gridrotator.js"></script>
+    <script type="text/javascript" src="../js/jquery/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../js/jquery/baron.js"></script>
+    <script type="text/javascript" src="../js/jquery/masonry.pkgd.min.js"></script>
+    
+    <script type="text/javascript" src="../js/bootstrap/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="../js/custom.script.js"></script>
+  </body>
+</html>
